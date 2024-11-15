@@ -8,7 +8,7 @@ from typing import List
 from auth import get_password_hash
 
 
-app = FastAPI()
+app = FastAPI(docs_url="/api/docs")
 
 Base.metadata.create_all(bind=engine)
 

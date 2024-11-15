@@ -82,7 +82,7 @@ export default {
 
 <style>
 body {
-  background: url('@/assets/car-background.jpg') no-repeat center center fixed;
+  background: url('@/assets/car_manage2.jpg') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   margin: 0;
